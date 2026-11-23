@@ -1,0 +1,8 @@
+{
+  "module": "memory",
+  "algorithm": "best_fit",
+  "params": {
+    "blocks": [512, 64, 256, 128, 512, 32, 256, 64, 128, 512, 32, 256],
+    "requests": [212, 417, 112, 426]
+  }
+}
