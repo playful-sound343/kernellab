@@ -4,6 +4,12 @@ KernelLab is a pure-Python operating-systems simulator with a FastAPI dashboard.
 
 It is a portfolio-ready systems project with a non-root Docker image, persisted experiment history, raw SQL analytics, a Windows host-process capture workflow, automated tests, and GitHub Actions CI.
 
+<p align="center">
+  <img src="kernel_lab.png" alt="KernelLab architecture: dashboard to FastAPI to kernel dispatcher to algorithm engines, with results saved in SQLite" width="760">
+</p>
+
+<p align="center"><em>One experiment: the dashboard posts a workload, the kernel dispatches it to an algorithm engine, and the result is saved in SQLite for comparison.</em></p>
+
 ## Features
 
 - **OS algorithms:** CPU scheduling, contiguous and buddy allocation, page replacement, deadlock detection and avoidance, and synchronization.
