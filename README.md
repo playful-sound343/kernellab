@@ -172,4 +172,3 @@ KernelLab deliberately excludes file systems, disk scheduling, IPC, machine lear
 ## License
 
 Released under the [MIT License](LICENSE).
-
